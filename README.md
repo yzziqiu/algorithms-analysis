@@ -4,8 +4,10 @@ algorithms and codes recorded
 ***
 
 ### Sorting.cpp
+
 Comparison between merge sort and quick sort, particularly the difference of their swapping time and running time
 sorting method should be clearly known
+
 ---
 
 ### tug-of-war.cpp
