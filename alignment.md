@@ -1,15 +1,4 @@
 ~~~~
-L[i,j] = 
-    \begin{cases}
-        L[i-1,j-1],& \text{if}\ P[i] = Q[j] \ and \ i = j \\
-        min(L[i-1,j-1]+d, min(L[i-1,j]+g, L[i,j-1]+g)), & \text{if} \ P[i] \neq Q[j] \ and \ i, j > 0
-    \end{cases}
-
-\vspace{3mm}
-\textbf{Question 2}
-
-dynamic programming
-\begin{lstlisting}
 //assume P[1...n] and Q[1...m]
 //L[n,m] to store the penalty score
 //gap:g, mismatch:d
